@@ -90,7 +90,7 @@ class TwigCodeSnifferConsole extends Console
 
         $this->addOption(
             static::OPTION_FIX,
-            null,
+            'f',
             InputOption::VALUE_NONE,
             'Automatically fix all the fixable violations',
         );
